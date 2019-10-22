@@ -9,7 +9,7 @@ const loader = lottie.loadAnimation({
     renderer: 'svg',
     loop: true,
     autoplay: true,
-    path: 'data/v04.json' // the path to the animation json
+    path: 'data/v06.json' // the path to the animation json
 });
 
 loader.addEventListener('data_ready', function() {
