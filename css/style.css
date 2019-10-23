@@ -7,10 +7,16 @@ body {
     stroke: green;
 }
 */
-/*
 .checkmark-bg-color {
-    stroke: hotpink;
+    stroke: transparent;
 }
-*/
+
+.success {
+    stroke: green;
+}
+
+.error {
+    stroke: red;
+}
 
 /*# sourceMappingURL=style.css.map */

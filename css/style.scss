@@ -10,8 +10,15 @@ body {
 */
 
 // To change bg color of ring
-/*
+
 .checkmark-bg-color {
-    stroke: hotpink;
+    stroke: transparent;
 }
-*/
+
+.success {
+    stroke: green;
+}
+
+.error {
+    stroke: red;
+}
