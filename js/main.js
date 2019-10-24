@@ -21,6 +21,7 @@ loader.addEventListener('DOMLoaded', function() {
         loader.addEventListener('loopComplete', function() {
             loader.playSegments([35, 120], true);
             loader.loop = false;
+            loader.setSpeed(1.1); // match speed
 
             for (let i = 0; i < htmlCollection.length; i++) {
                 htmlCollection[i].classList.add('success');
